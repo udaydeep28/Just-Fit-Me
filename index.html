@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./img/logo main.png" type="image/x-icon" />
+    <title>Just Fit Me</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="nav">
+      <div class="left">
+        <img src="./img/logo main.png" alt="" />
+      </div>
+      <div class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      <div class="right">
+        <li><a href="#1">Home</a></li>
+        <li><a href="#2">About</a></li>
+        <li><a href="#3">Contact Us</a></li>
+      </div>
+    </div>
+    <div class="page1" id="1">
+      <video autoplay loop muted src="./videos/main_video.mp4"></video>
+      <h1>Just Fit Me</h1>
+      <p>One Step Towards Your Perfect Fitness With The Perfect Trainer</p>
+      <button><a href="#2">Learn More</a></button>
+    </div>
+    <div class="page2" id="2">
+      <h1>Get Started</h1>
+      <p>
+        A fitness personal trainer is a certified professional dedicated to
+        guiding individuals in achieving their health and fitness goals. Trained
+        in exercise physiology and nutrition, they create personalized workout
+        plans tailored to clients' needs and fitness levels. Whether focusing on
+        weight loss, muscle toning, or overall well-being, personal trainers
+        offer expert guidance, motivation, and support. Monitoring progress and
+        adapting routines, they play a crucial role in fostering a healthy
+        lifestyle. Through one-on-one or group sessions, these professionals
+        empower clients with the knowledge and skills needed to maximize their
+        fitness potential, emphasizing long-term well-being and sustainable
+        habits.
+      </p>
+      <div class="container">
+        <div class="box">
+          <img src="./img/flexibility.png" alt="" />
+          <h1>Flexiblity</h1>
+          <p>
+            Flexibility in training is essential for creating a balanced and
+            effective fitness program.
+          </p>
+        </div>
+        <div class="box">
+          <img src="./img/cardio.png" alt="" />
+          <h1>Cardio</h1>
+          <p>
+            Cardio workouts are essential for improving heart health, burning
+            calories and enhancing overall fitness.
+          </p>
+        </div>
+        <div class="box">
+          <img src="./img/energy.png" alt="" />
+          <h1>Energy</h1>
+          <p>Energy is a key component in fitness and overall well-being.</p>
+        </div>
+        <div class="box">
+          <img src="./img/HIIT-training.png" alt="" />
+          <h1>HIIT</h1>
+          <p>
+            HIIT is a popular and effective workout method that alternates
+            between short bursts of intense exercise.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="page3" id="3">
+      <div class="form">
+        <h1>Get Started Today</h1>
+        <div class="form-container">
+          <form action="https://formspree.io/f/meojeqgo" method="POST">
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter your name"
+                required
+                autocomplete="off"
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter Your Email"
+                required
+                autocomplete="off"
+              />
+            </div>
+            <div class="submit-container">
+              <input type="submit" value="Submit" />
+            </div>
+          </form>
+        </div>
+      </div>
+      <footer>© Copyright 2024 - 2025 Just Fit Me</footer>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
